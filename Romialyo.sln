@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Global", "00-Global", "{DFB398F0-DD06-4FFC-8C31-9E64A712C517}"
+	ProjectSection(SolutionItems) = preProject
+		GlobalAssemblyInfo.cs = GlobalAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romialyo", "Romialyo\Romialyo.csproj", "{898D1037-A12C-453C-AE94-229CF43F029C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romialyo.Messaging", "Romialyo.Messaging\Romialyo.Messaging.csproj", "{3792EEA8-8AB4-4E41-AA9B-D4CC886B3302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romialyo.Messaging.Tests", "Romialyo.Messaging.Tests\Romialyo.Messaging.Tests.csproj", "{F9C755EA-804F-4185-BF66-592A021074DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romialyo.SampleConsole", "Romialyo.SampleConsole\Romialyo.SampleConsole.csproj", "{41F5D525-F281-4891-86E6-9977D3ABCABB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RomialyoSDK", "RomialyoSDK.Setup\RomialyoSDK.Setup.vdproj", "{84C4575E-9F40-40A3-863B-554B45954F74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{898D1037-A12C-453C-AE94-229CF43F029C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898D1037-A12C-453C-AE94-229CF43F029C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898D1037-A12C-453C-AE94-229CF43F029C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898D1037-A12C-453C-AE94-229CF43F029C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3792EEA8-8AB4-4E41-AA9B-D4CC886B3302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3792EEA8-8AB4-4E41-AA9B-D4CC886B3302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3792EEA8-8AB4-4E41-AA9B-D4CC886B3302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3792EEA8-8AB4-4E41-AA9B-D4CC886B3302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9C755EA-804F-4185-BF66-592A021074DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C755EA-804F-4185-BF66-592A021074DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C755EA-804F-4185-BF66-592A021074DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C755EA-804F-4185-BF66-592A021074DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F5D525-F281-4891-86E6-9977D3ABCABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F5D525-F281-4891-86E6-9977D3ABCABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F5D525-F281-4891-86E6-9977D3ABCABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F5D525-F281-4891-86E6-9977D3ABCABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C4575E-9F40-40A3-863B-554B45954F74}.Debug|Any CPU.ActiveCfg = Debug
+		{84C4575E-9F40-40A3-863B-554B45954F74}.Release|Any CPU.ActiveCfg = Release
+		{84C4575E-9F40-40A3-863B-554B45954F74}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
